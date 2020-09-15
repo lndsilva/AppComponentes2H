@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#6200EE</color>
-    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorPrimary">#5E6E91</color>
+    <color name="colorPrimaryDark">#9A4E54</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="corAppYoutube">#772620</color>
     <color name="corAppFacebook">#395693</color>
     <color name="corAppWhatsapp">#56AF28</color>
     <color name="corAppTwitter">#1C9CEA</color>
+    <color name="corBotao">#218DF4</color>
 </resources>
