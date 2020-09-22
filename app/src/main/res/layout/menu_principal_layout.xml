@@ -47,7 +47,7 @@
                 android:layout_height="180dp"
                 android:layout_marginLeft="4dp"
                 android:background="@drawable/cor_fundo"
-                android:src="@drawable/homem" />
+                android:src="@drawable/armadura" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -79,12 +79,12 @@
                 android:layout_height="180dp"
                 android:layout_marginLeft="4dp"
                 android:background="@drawable/cor_fundo"
-                android:src="@drawable/homem" />
+                android:src="@drawable/jarvis" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="História"
+                android:text="Jarvis"
                 android:textColor="#000"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -102,12 +102,12 @@
                 android:layout_height="180dp"
                 android:layout_marginLeft="4dp"
                 android:background="@drawable/cor_fundo"
-                android:src="@drawable/homem" />
+                android:src="@drawable/pepper" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Armaduras"
+                android:text="Pepper Pots"
                 android:textColor="#000"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -132,12 +132,12 @@
                 android:layout_height="180dp"
                 android:layout_marginLeft="4dp"
                 android:background="@drawable/cor_fundo"
-                android:src="@drawable/homem" />
+                android:src="@drawable/tony" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="História"
+                android:text="Empresa Stark"
                 android:textColor="#000"
                 android:textSize="25sp"
                 android:textStyle="bold" />
@@ -155,12 +155,12 @@
                 android:layout_height="180dp"
                 android:layout_marginLeft="4dp"
                 android:background="@drawable/cor_fundo"
-                android:src="@drawable/homem" />
+                android:src="@drawable/avengers" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Armaduras"
+                android:text="Vingadores"
                 android:textColor="#000"
                 android:textSize="25sp"
                 android:textStyle="bold" />
