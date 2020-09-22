@@ -12,6 +12,9 @@
     <string name="estado" translatable="false">Estado:</string>
     <string name="entrar" translatable="false">Entrar</string>
     <string name="sair" translatable="false">Sair</string>
+    <string name="historia">Homem de ferro , super-herói americano de quadrinhos , um dos pilares da Marvel Comics , que apareceu pela primeira vez em 1963 em Tales of Suspense no. 39. Sua criação é oficialmente creditada a quatro pessoas: escritor e editor Stan Lee , que traçou a primeira história; seu irmão Larry Lieber, que o roteirizou; o artista Don Heck, que desenhou; e Jack Kirby , que projetou o traje de batalha blindado original do Homem de Ferro. O Homem de Ferro apareceu como a estrela de sua própria série de quadrinhos, como convidado regular em outros quadrinhos populares (principalmente nos Vingadores ), em filmes de animação e séries de televisão e em filmes de ação ao vivo</string>
+    <string name="armadura">Homem de Ferro é o apelido que a armadura de Tony Stark recebeu após sua primeira grande batalha.</string>
+    <string name="armadura_antiga">A primeira versão do Homem de Ferro foi criada no Afeganistão com a ajuda de Yinsen, para que ele e Tony conseguissem escapar de seu cativeiro. Quando finalmente chegou em casa, Tony Stark passou a aprimorar suas armaduras usando os vastos recursos de sua antiga fabrica de armas.</string>
     <array name="estado">
         <item>São Paulo</item>
         <item>Rio de Janeiro</item>
