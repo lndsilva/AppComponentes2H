@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -29,38 +30,146 @@
             android:textSize="18sp"
             tools:ignore="HardcodedText" />
 
-        <LinearLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <ImageView
-                android:layout_width="200dp"
-                android:layout_height="200dp"
-                android:layout_gravity="center_horizontal"
-                android:src="@drawable/detail" />
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ironmanum" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
 
 
-            <TextView
-                android:textColor="#000"
-                android:textStyle="bold"
-                android:gravity="center_horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Nome da Armadura" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Nome da Armadura"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/armadura_antiga" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/armadura_antiga" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/ironmandois" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Nome da Armadura"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/armadura_antiga" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/markiii" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Nome da Armadura"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/armadura_antiga" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:layout_gravity="center_horizontal"
+                        android:src="@drawable/markiiii" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="Nome da Armadura"
+                            android:textColor="#000"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/armadura_antiga" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
             </LinearLayout>
 
-        </LinearLayout>
-
-
+        </ScrollView>
     </LinearLayout>
-</ScrollView>
+
+</LinearLayout>

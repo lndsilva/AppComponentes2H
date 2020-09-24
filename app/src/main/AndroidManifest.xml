@@ -14,11 +14,8 @@
         <activity android:name=".Peppers_Activity" />
         <activity android:name=".Jarvis_Activity" />
         <activity android:name=".Armaduras_Activity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+
         </activity>
 
         <activity android:name=".Historia_Activity">
@@ -27,6 +24,11 @@
         <activity
             android:name=".MenuPrincipal_Activity"
             android:theme="@style/temaSemBarra">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
 
         </activity>
         <activity
