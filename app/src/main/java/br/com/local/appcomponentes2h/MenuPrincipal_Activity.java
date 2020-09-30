@@ -5,62 +5,62 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
-public class MenuPrincipal_Activity extends AppCompatActivity {
+public class MenuPrincipal_Activity extends AppCompatActivity implements View.OnClickListener {
+    //Criar uma variável ou atributo global do objeto do xml
+    ImageButton imbHistoria, imbArmadura,
+            imbJarvis, imbPepperPots,
+            imbEmpresaStark, imbVingadores;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         //Liga o Classe ao layout através do R.java
         setContentView(R.layout.menu_principal_layout);
+
+        //realizei a ligação do objeto xml com o java
+        imbHistoria = findViewById(R.id.imbHistoria);
+        imbArmadura = findViewById(R.id.imbArmadura);
+        imbJarvis = findViewById(R.id.imbJarvis);
+        imbPepperPots = findViewById(R.id.imbPepperPots);
+        imbEmpresaStark = findViewById(R.id.imbEmpresaStark);
+        imbVingadores = findViewById(R.id.imbVingadores);
+
+        imbHistoria.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Historia_Activity.class));
+            }
+        });
+
+        imbArmadura.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Armaduras_Activity.class));
+            }
+        });
+        imbJarvis.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Jarvis_Activity.class));
+            }
+        });
     }
 
-    public void abrirHistoria(View view) {
-        //mostrar mensagem na janela do android
-        /*Toast.makeText(getApplicationContext(),
-                "Cliquei em história!!!",
-                Toast.LENGTH_SHORT).show();*/
-        //abrir a janela de história
-        Intent intent = new Intent(getApplicationContext(), Historia_Activity.class);
-        startActivity(intent);
-        //fecha a janela atual
-        //finish();
+    @Override
+    public void onClick(View view) {
+
+        switch (view.getId()) {
+            case R.id.imbJarvis:
+                 startActivity(new Intent(getApplicationContext(), Jarvis_Activity.class));
+                break;
 
 
-    }
+        }
 
-    public void abrirArmaduras(View view) {
-        //mostrar mensagem na janela do android
-        Toast.makeText(getApplicationContext(),
-                "Cliquei em Armaduras!!!",
-                Toast.LENGTH_SHORT).show();
-    }
-
-    public void abrirJarvis(View view) {
-        //mostrar mensagem na janela do android
-        Toast.makeText(getApplicationContext(),
-                "Cliquei em Jarvis!!!",
-                Toast.LENGTH_SHORT).show();
-    }
-
-    public void abrirPepperPots(View view) {
-        //mostrar mensagem na janela do android
-        Toast.makeText(getApplicationContext(),
-                "Cliquei em Pepper Pots!!!",
-                Toast.LENGTH_SHORT).show();
-    }
-
-    public void abrirEmpresaStark(View view) {
-        //mostrar mensagem na janela do android
-        Toast.makeText(getApplicationContext(),
-                "Cliquei em Empresa Stark!!!",
-                Toast.LENGTH_SHORT).show();
-    }
-
-    public void abrirVingadores(View view) {
-        //mostrar mensagem na janela do android
-        Toast.makeText(getApplicationContext(),
-                "Cliquei em Vingadores!!!",
-                Toast.LENGTH_SHORT).show();
     }
 }

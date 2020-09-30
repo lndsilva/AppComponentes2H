@@ -24,7 +24,6 @@
                 android:orientation="vertical">
 
                 <ImageButton
-                    android:onClick="abrirHistoria"
                     android:id="@+id/imbHistoria"
                     android:layout_width="200dp"
                     android:layout_height="180dp"
@@ -50,7 +49,6 @@
 
                 <ImageButton
                     android:id="@+id/imbArmadura"
-                    android:onClick="abrirArmaduras"
                     android:layout_width="200dp"
                     android:layout_height="180dp"
                     android:layout_marginLeft="4dp"
@@ -84,7 +82,6 @@
 
                 <ImageButton
                     android:id="@+id/imbJarvis"
-                    android:onClick="abrirJarvis"
                     android:layout_width="200dp"
                     android:layout_height="180dp"
                     android:layout_marginLeft="4dp"
@@ -109,7 +106,6 @@
 
                 <ImageButton
                     android:id="@+id/imbPepperPots"
-                    android:onClick="abrirPepperPots"
                     android:layout_width="200dp"
                     android:layout_height="180dp"
                     android:layout_marginLeft="4dp"
@@ -141,7 +137,6 @@
 
                 <ImageButton
                     android:id="@+id/imbEmpresaStark"
-                    android:onClick="abrirEmpresaStark"
                     android:layout_width="200dp"
                     android:layout_height="180dp"
                     android:layout_marginLeft="4dp"
@@ -166,7 +161,6 @@
 
                 <ImageButton
                     android:id="@+id/imbVingadores"
-                    android:onClick="abrirVingadores"
                     android:layout_width="200dp"
                     android:layout_height="180dp"
                     android:layout_marginLeft="4dp"
