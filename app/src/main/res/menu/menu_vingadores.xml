@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/mCAmerica"
+        android:title="Capitão América" />
+    <item
+        android:id="@+id/mHomenFerro"
+        android:title="Homem de Ferro" />
+    <item
+        android:id="@+id/mGArqueiro"
+        android:title="Gavião Arqueiro" />
+    <item
+        android:id="@+id/mHulk"
+        android:title="Hulk" />
+    <item
+        android:id="@+id/mViuvaNegra"
+        android:title="Viuva Negra" />
+</menu>

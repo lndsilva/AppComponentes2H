@@ -11,21 +11,21 @@
         android:id="@+id/mAlterar"
         android:icon="@drawable/ic_baseline_update"
         android:title="Alterar"
-        app:showAsAction="withText" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mExcluir"
         android:icon="@drawable/ic_baseline_delete"
         android:title="Excluir"
-        app:showAsAction="collapseActionView" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mPesquisar"
         android:icon="@drawable/ic_baseline_search"
         android:title="Pesquisar"
-        app:showAsAction="never" />
+        app:showAsAction="ifRoom" />
     <item
         android:id="@+id/mVoltar"
         android:icon="@drawable/ic_baseline_arrow"
         android:title="Voltar"
-        app:showAsAction="always" />
+        app:showAsAction="ifRoom" />
 
 </menu>

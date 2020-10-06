@@ -9,34 +9,34 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Vingadores_Activity"></activity>
+        <activity android:name=".VNegra_Activity"></activity>
+        <activity android:name=".GArqueiro_Activity" />
+        <activity android:name=".Hulk_Activity" />
+        <activity android:name=".HFerro_Activity" />
+        <activity android:name=".CAmerica_Activity" />
+        <activity android:name=".Vingadores_Activity">
+
+        </activity>
         <activity android:name=".EmpresaStark_Activity" />
         <activity android:name=".Peppers_Activity" />
         <activity android:name=".Jarvis_Activity" />
-        <activity android:name=".Armaduras_Activity">
-
-
-        </activity>
-
-        <activity android:name=".Historia_Activity">
-
-        </activity>
+        <activity android:name=".Armaduras_Activity" />
+        <activity android:name=".Historia_Activity" />
         <activity
             android:name=".MenuPrincipal_Activity"
+            android:theme="@style/temaSemBarra" />
+        <activity
+            android:name=".Splash_Activity"
+            android:theme="@style/temaSemBarra" />
+        <activity
+            android:name=".Login_Activity"
             android:theme="@style/temaSemBarra">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-        <activity
-            android:name=".Splash_Activity"
-            android:theme="@style/temaSemBarra" />
-        <activity
-            android:name=".Login_Activity"
-            android:theme="@style/temaSemBarra" />
         <activity
             android:name=".MainActivity"
             android:theme="@style/temaSemBarra" />
