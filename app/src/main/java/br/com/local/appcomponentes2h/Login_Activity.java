@@ -36,12 +36,21 @@ public class Login_Activity extends AppCompatActivity {
                 if (email.equals("etecia") && senha.equals("etecia")) {
                     startActivity(new Intent(getApplicationContext(),
                             MenuPrincipal_Activity.class));
+                    //realiza o foco no objeto em tempo de execução.
+                    txtEmailUsu.requestFocus();
                     finish();
                 } else {
                     Toast.makeText(getApplicationContext(),
                             "Usuário ou senha inválidos!!!",
                             Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        btnSair.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                finish();
             }
         });
     }
