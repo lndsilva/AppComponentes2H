@@ -7,12 +7,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 public class Login_Activity extends AppCompatActivity {
 
     Button btnEntrar, btnSair;
     EditText txtEmailUsu, txtSenhaUsu;
+    TextView lblEsqueceuSenha;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -23,6 +25,7 @@ public class Login_Activity extends AppCompatActivity {
         btnSair = findViewById(R.id.btSair);
         txtEmailUsu = findViewById(R.id.txtEmailUsu);
         txtSenhaUsu = findViewById(R.id.txtSenhaUsu);
+        lblEsqueceuSenha = findViewById(R.id.lblEsqueceuSenha);
 
         btnEntrar.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,6 +54,13 @@ public class Login_Activity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+        lblEsqueceuSenha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), EsqueceuSenha_Activity.class));
             }
         });
     }
