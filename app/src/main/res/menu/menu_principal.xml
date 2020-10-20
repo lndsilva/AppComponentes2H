@@ -1,8 +1,44 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-    <item android:id="@+id/mteste"
-        android:title="Testando menu"/>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/mteste"
+        android:title="Testando menu" />
+
+    <item android:title="Arquivo">
+
+        <menu>
+            <item android:title="Cadastrar" />
+            <item android:title="Alterar" />
+            <item android:title="Excluir" />
+            <item android:title="Pesquisar" />
+        </menu>
+
+    </item>
+
+    <group
+        android:id="@+id/gpbMenu"
+        android:checkableBehavior="single"
+        android:enabled="true"
+        android:menuCategory="system"
+        android:visible="true">
+        <item
+            android:id="@+id/mEditar"
+            android:icon="@drawable/ic_baseline_edit"
+            android:title="Editar"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/mBuscar"
+            android:icon="@drawable/ic_baseline_search"
+            android:title="Buscar"
+            app:actionViewClass="android.widget.SearchView"
+            app:showAsAction="collapseActionView|ifRoom" />
 
 
+        <item android:title="Visualizar" />
+        <item android:title="Configurar" />
+
+    </group>
 
 </menu>

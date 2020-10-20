@@ -13,7 +13,12 @@
         <activity android:name=".EsqueceuSenha_Activity" />
         <activity android:name=".VNegra_Activity" />
         <activity android:name=".GArqueiro_Activity" />
-        <activity android:name=".Hulk_Activity" />
+        <activity android:name=".Hulk_Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".HFerro_Activity" />
         <activity android:name=".CAmerica_Activity" />
         <activity android:name=".Vingadores_Activity" />
@@ -28,11 +33,7 @@
         <activity
             android:name=".Splash_Activity"
             android:theme="@style/temaSemBarra">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name=".Login_Activity"
